@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 const Database = require('easy-json-database');
 const path = require('path');
 
-const db = new Database(path.join(__dirname, '../server.json'));
+const db = new Database(path.join(__dirname, '../../server.json'));
 
 module.exports = {
 	data: new SlashCommandBuilder()
