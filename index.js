@@ -4,7 +4,7 @@ const { Client, Collection, Events, GatewayIntentBits, MessageFlags } = require(
 const Database = require('easy-json-database');
 const chalk = require('chalk')
 
-const db = new Database(path.join(__dirname, '../server.json'));
+const db = new Database(path.join(__dirname, './server.json'));
 const { token } = require('./config.json');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
