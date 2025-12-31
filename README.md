@@ -1,3 +1,5 @@
+# Available for download on BuiltByBit
+# https://builtbybit.com/resources/capybota.81188/
 # discord capybota
 
 A discord.js bot that posts nice Capybara images daily!
